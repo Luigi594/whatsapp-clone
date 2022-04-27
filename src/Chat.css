@@ -4,3 +4,61 @@
     flex-direction: column;
     flex: 0.65;
 }
+
+.chat_header{
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat_headerinfo{
+
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat_headerinfo h3{
+
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat_headerinfo p{
+    color: gray;
+}
+
+.chat_body{
+
+    flex: 1;
+    background-image: url("https://i.pinimg.com/originals/f8/18/75/f81875eabac70b8fc2ef3ce605a924cc.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.chat_message{
+
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffff;
+    margin-bottom: 30px;
+}
+
+.chat_reciever{
+
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chat_timestamp{
+    
+    margin-left: 10px;
+    font-size: xx-small;
+}
