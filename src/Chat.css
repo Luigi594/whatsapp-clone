@@ -13,6 +13,10 @@
     border-bottom: 1px solid lightgray;
 }
 
+.chat_header .chat_icon{
+    cursor: pointer;
+}
+
 .chat_headerinfo{
 
     flex: 1;
@@ -61,4 +65,38 @@
     
     margin-left: 10px;
     font-size: xx-small;
+}
+
+.chat_footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.chat_footer form{
+
+    flex: 1;
+    display: flex;
+}
+
+.chat_footer form input{
+
+    flex: 1;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.chat_footer form button{
+    display: none;
+}
+
+.chat_footer .MuiSvgIcon-root{
+
+    padding: 10px;
+    color: gray;
 }

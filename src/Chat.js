@@ -14,7 +14,7 @@ function Chat() {
 
     {/** the chat on the header */}
       <div className="chat_header">
-        <Avatar />
+        <Avatar className='chat_icon' />
 
         <div className="chat_headerinfo">
           <h3>Room name</h3>
